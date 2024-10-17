@@ -1,14 +1,32 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const PPMori_Regular = localFont({
+  src: "./fonts/PPMori-Regular.otf",
+  variable: "--font-PPMori-Regular",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const PPMori_Extralight = localFont({
+  src: "./fonts/PPMori-Extralight.otf",
+  variable: "--font-PPMori-Extralight",
+  weight: "100 900",
+});
+
+const PPMori_Light = localFont({
+  src: "./fonts/PPMori-Light.0f42b11c.woff2",
+  variable: "--font-PPMori-Light",
+  weight: "100 900",
+});
+
+const PPMori_Bold = localFont({
+  src: "./fonts/PPMori-SemiBold.otf",
+  variable: "--font-PPMori-Bold",
+  weight: "100 900",
+});
+
+const NanumSquareRoundL = localFont({
+  src: "./fonts/NanumSquareRoundL.ttf",
+  variable: "--font-NanumSquareRoundL",
   weight: "100 900",
 });
 
@@ -20,7 +38,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${PPMori_Bold.variable} ${PPMori_Regular.variable} ${PPMori_Extralight.variable} ${PPMori_Light.variable} ${NanumSquareRoundL.variable}`}
+      >
         {children}
       </body>
     </html>
