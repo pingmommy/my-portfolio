@@ -1,7 +1,6 @@
 포트폴리오 사이트 version 1 
 
 ## stack
----
 
 - Next.JS 14
 - React 18
@@ -11,7 +10,7 @@
 
 
 ## comments
----
+
 
 React18과 Next.JS 14를 기반으로 처음 작업해보았다.
 
@@ -29,7 +28,6 @@ version2는 최대한 서버컴포넌트를 활용하는 것을 목표로,</br>
 </br> 
 
 ## 개선할 사항 
-----
 
 1. 스타일 적용 -> module.css
 2. gsap -> pin animation : 뷰포트리사이징이 될 때 pin 영역을 다시 계산하거나, 작은 화면에서는 애니메이션이 없는 게 나을 수도 있으므로 kill 처리하기.
