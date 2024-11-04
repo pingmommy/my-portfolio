@@ -1,6 +1,6 @@
 포트폴리오 사이트 version 1 
 
-## 🔖Sstack
+## 🔖Stack
 
 - Next.JS 14
 - React 18
